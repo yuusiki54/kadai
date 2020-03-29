@@ -9,6 +9,6 @@ function total($array){
 $params = array_slice($argv,1);
 $kekka = total($params);
 //$kekka　は合計値が入っている
-$average = $kekka / count([$argv]);
+$average = $kekka / count($params);
 echo $average;
 ?>
